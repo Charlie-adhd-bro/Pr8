@@ -1,6 +1,6 @@
 ﻿namespace Pr8
 {
-    partial class pr8_3
+    partial class pr8_4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pr8_3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pr8_4));
             buttonResult = new Button();
             buttonReset = new Button();
             textBox1 = new TextBox();
@@ -144,14 +144,14 @@
             label2.Location = new Point(436, 10);
             label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
-            label2.Size = new Size(244, 25);
+            label2.Size = new Size(221, 25);
             label2.TabIndex = 14;
-            label2.Text = "Введите 2 число 1 объекта";
+            label2.Text = "Введите текст 1 объекта";
             label2.TextAlign = ContentAlignment.TopCenter;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(692, 16);
+            textBox2.Location = new Point(669, 16);
             textBox2.Margin = new Padding(6);
             textBox2.MaxLength = 1000000000;
             textBox2.Name = "textBox2";
@@ -184,14 +184,14 @@
             label4.Location = new Point(436, 55);
             label4.Margin = new Padding(6, 0, 6, 0);
             label4.Name = "label4";
-            label4.Size = new Size(244, 25);
+            label4.Size = new Size(221, 25);
             label4.TabIndex = 18;
-            label4.Text = "Введите 2 число 2 объекта";
+            label4.Text = "Введите текст 2 объекта";
             label4.TextAlign = ContentAlignment.TopCenter;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(692, 61);
+            textBox4.Location = new Point(669, 61);
             textBox4.Margin = new Padding(6);
             textBox4.MaxLength = 1000000000;
             textBox4.Name = "textBox4";
@@ -256,7 +256,7 @@
             labelResult2.TabIndex = 12;
             labelResult2.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // pr8_3
+            // pr8_4
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -272,10 +272,10 @@
             Margin = new Padding(5);
             MaximumSize = new Size(1020, 980);
             MinimumSize = new Size(896, 512);
-            Name = "pr8_3";
+            Name = "pr8_4";
             Padding = new Padding(10);
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Pr8_3";
+            Text = "Pr8_1";
             flowLayoutPanel2.ResumeLayout(false);
             flowLayoutPanel2.PerformLayout();
             flowLayoutPanel3.ResumeLayout(false);

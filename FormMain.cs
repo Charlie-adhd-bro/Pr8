@@ -32,5 +32,12 @@ namespace Pr8
             pr8_3 mainForm = new();
             mainForm.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pr8_4 mainForm = new();
+            mainForm.Show();
+        }
     }
 }

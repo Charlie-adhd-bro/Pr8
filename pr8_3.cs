@@ -35,10 +35,16 @@
                 return;
             }
 
-            SumOfSquares number1 = new SumOfSquares(0, 8);   // сумма квадратов: 0^2 + 8^2 = 0 + 64 = 64
-            SumOfSquares number2 = new SumOfSquares(9, 7);   // сумма: 9^2 + 7^2 = 81 + 49 = 130
-            SumOfSquares number3 = new SumOfSquares(3, 4);   // сумма: 3^2 + 4^2 = 9 + 16 = 25
-            SumOfSquares number4 = new SumOfSquares(6, 8);   // сумма: 36 + 64 = 100
+            SumOfSquares number12 = new (first, second);
+            SumOfSquares number22 = new (first1, second1);
+            labelResult2.Text += "\n" + $"{first * first} + {second * second} " +
+                $"< {first1 * first1} + {second1 * second1} "
+                + String.Join(" ", number12 < number22);
+
+            SumOfSquares number1 = new (0, 8);   // сумма квадратов: 0^2 + 8^2 = 0 + 64 = 64
+            SumOfSquares number2 = new (9, 7);   // сумма: 9^2 + 7^2 = 81 + 49 = 130
+            SumOfSquares number3 = new (3, 4);   // сумма: 3^2 + 4^2 = 9 + 16 = 25
+            SumOfSquares number4 = new (6, 8);   // сумма: 36 + 64 = 100
 
             // Тесты:
             labelResult.Text = "0 + 64 > 81 + 49 " + String.Join("\n", number1 > number2); // "False"
@@ -46,12 +52,6 @@
             labelResult.Text += "\n" + $"36 + 64 > 9 + 16 " + String.Join(" ", number4 > number3); // "True"
             labelResult2.Text = "81 + 49 < 9 + 16 " + String.Join(" ", number2 < number3); // "False"
             labelResult2.Text += "\n" + "0 + 64 < 36 + 64 " + String.Join(" ", number1 < number4); // "True"
-
-            SumOfSquares number12 = new SumOfSquares(first, second);
-            SumOfSquares number22 = new SumOfSquares(first1, second1);
-            labelResult2.Text += "\n" + $"{first * first} + {second * second} " +
-                $"< {first1 * first1} + {second1 * second1} " 
-                + String.Join(" ", number12 < number22); 
         }
 
         private void buttonReset_Click(object sender, EventArgs e)
