@@ -14,24 +14,32 @@
         // Сравнение по длине текста (больше)
         public static bool operator >(TextAndNumber first, TextAndNumber second)
         {
+            if (first is null || second is null)
+                return false;
             return first.Text.Length > second.Text.Length;
         }
 
         // Меньше
         public static bool operator <(TextAndNumber first, TextAndNumber second)
         {
+            if (first is null || second is null)
+                return false;
             return first.Text.Length < second.Text.Length;
         }
 
         // Больше или равно — по числам
         public static bool operator >=(TextAndNumber first, TextAndNumber second)
         {
+            if (first is null || second is null)
+                return false;
             return first.Number >= second.Number;
         }
 
         // Меньше или равно — по числам
         public static bool operator <=(TextAndNumber first, TextAndNumber second)
         {
+            if (first is null || second is null)
+                return false;
             return first.Number <= second.Number;
         }
 
@@ -60,10 +68,7 @@
         // Переопределение GetHashCode
         public override int GetHashCode()
         {
-            int hash = 17;
-            hash = hash * 31 + Number.GetHashCode();
-            hash = hash * 31 + (Text != null ? Text.GetHashCode() : 0);
-            return hash;
+            return HashCode.Combine(Number, Text);
         }
     }
 }

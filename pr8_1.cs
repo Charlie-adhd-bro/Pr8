@@ -34,8 +34,8 @@
             CharOperator charObj = new CharOperator(textBox1.Text[0]);
 
             labelResult.Text = "Оригинальный символ:\n" + charObj;
-            labelResult.Text += "\nСимвол на 1 больше:\n" + charObj++;
-            labelResult.Text += "\nСимвол на 1 меньше:\n" + charObj--;
+            labelResult.Text += "\nНа 1 больше символ :\n" + charObj++;
+            labelResult.Text += "\nНа 1 меньше символ :\n" + charObj--;
 
             CharOperator newChar = charObj + num;
 

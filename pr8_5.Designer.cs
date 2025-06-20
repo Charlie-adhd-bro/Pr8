@@ -1,6 +1,6 @@
 ﻿namespace Pr8
 {
-    partial class pr8_4
+    partial class pr8_5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pr8_4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(pr8_5));
             buttonResult = new Button();
             buttonReset = new Button();
             textBox1 = new TextBox();
@@ -38,10 +38,6 @@
             label1 = new Label();
             label2 = new Label();
             textBox2 = new TextBox();
-            label3 = new Label();
-            textBox3 = new TextBox();
-            label4 = new Label();
-            textBox4 = new TextBox();
             flowLayoutPanel5 = new FlowLayoutPanel();
             buttonBack = new Button();
             labelResult = new Label();
@@ -79,7 +75,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(272, 16);
+            textBox1.Location = new Point(167, 16);
             textBox1.Margin = new Padding(6);
             textBox1.MaxLength = 32780;
             textBox1.Name = "textBox1";
@@ -93,9 +89,9 @@
             label5.Location = new Point(25, 21);
             label5.Margin = new Padding(6, 0, 6, 0);
             label5.Name = "label5";
-            label5.Size = new Size(317, 25);
+            label5.Size = new Size(266, 25);
             label5.TabIndex = 3;
-            label5.Text = "Работа с перезгрузкой опреаторов";
+            label5.Text = "Работа с числом и символом\r\n";
             label5.TextAlign = ContentAlignment.TopCenter;
             // 
             // flowLayoutPanel2
@@ -107,7 +103,7 @@
             flowLayoutPanel2.Margin = new Padding(6);
             flowLayoutPanel2.Name = "flowLayoutPanel2";
             flowLayoutPanel2.Padding = new Padding(19, 21, 19, 21);
-            flowLayoutPanel2.Size = new Size(1684, 67);
+            flowLayoutPanel2.Size = new Size(1055, 67);
             flowLayoutPanel2.TabIndex = 12;
             // 
             // flowLayoutPanel3
@@ -117,16 +113,12 @@
             flowLayoutPanel3.Controls.Add(textBox1);
             flowLayoutPanel3.Controls.Add(label2);
             flowLayoutPanel3.Controls.Add(textBox2);
-            flowLayoutPanel3.Controls.Add(label3);
-            flowLayoutPanel3.Controls.Add(textBox3);
-            flowLayoutPanel3.Controls.Add(label4);
-            flowLayoutPanel3.Controls.Add(textBox4);
             flowLayoutPanel3.Controls.Add(flowLayoutPanel5);
             flowLayoutPanel3.Dock = DockStyle.Top;
             flowLayoutPanel3.Location = new Point(10, 77);
             flowLayoutPanel3.Name = "flowLayoutPanel3";
             flowLayoutPanel3.Padding = new Padding(10);
-            flowLayoutPanel3.Size = new Size(1684, 132);
+            flowLayoutPanel3.Size = new Size(1055, 132);
             flowLayoutPanel3.TabIndex = 15;
             // 
             // label1
@@ -135,70 +127,30 @@
             label1.Location = new Point(16, 10);
             label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(244, 25);
+            label1.Size = new Size(139, 25);
             label1.TabIndex = 12;
-            label1.Text = "Введите 1 число 1 объекта";
+            label1.Text = "Введите число";
             label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(436, 10);
+            label2.Location = new Point(331, 10);
             label2.Margin = new Padding(6, 0, 6, 0);
             label2.Name = "label2";
-            label2.Size = new Size(221, 25);
+            label2.Size = new Size(151, 25);
             label2.TabIndex = 14;
-            label2.Text = "Введите текст 1 объекта";
+            label2.Text = "Введите символ\r\n";
             label2.TextAlign = ContentAlignment.TopCenter;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(669, 16);
+            textBox2.Location = new Point(494, 16);
             textBox2.Margin = new Padding(6);
-            textBox2.MaxLength = 1000000000;
+            textBox2.MaxLength = 1;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(152, 33);
             textBox2.TabIndex = 13;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(833, 10);
-            label3.Margin = new Padding(6, 0, 6, 0);
-            label3.Name = "label3";
-            label3.Size = new Size(244, 25);
-            label3.TabIndex = 16;
-            label3.Text = "Введите 1 число 2 объекта";
-            label3.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(1089, 16);
-            textBox3.Margin = new Padding(6);
-            textBox3.MaxLength = 32780;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(152, 33);
-            textBox3.TabIndex = 15;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(1253, 10);
-            label4.Margin = new Padding(6, 0, 6, 0);
-            label4.Name = "label4";
-            label4.Size = new Size(221, 25);
-            label4.TabIndex = 18;
-            label4.Text = "Введите текст 2 объекта";
-            label4.TextAlign = ContentAlignment.TopCenter;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(1486, 16);
-            textBox4.Margin = new Padding(6);
-            textBox4.MaxLength = 1000000000;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(152, 33);
-            textBox4.TabIndex = 17;
             // 
             // flowLayoutPanel5
             // 
@@ -246,7 +198,7 @@
             flowLayoutPanel1.Location = new Point(10, 209);
             flowLayoutPanel1.Name = "flowLayoutPanel1";
             flowLayoutPanel1.Padding = new Padding(10);
-            flowLayoutPanel1.Size = new Size(1684, 0);
+            flowLayoutPanel1.Size = new Size(1055, 0);
             flowLayoutPanel1.TabIndex = 15;
             // 
             // labelResult2
@@ -282,14 +234,14 @@
             labelResult4.TabIndex = 14;
             labelResult4.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // pr8_4
+            // pr8_5
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(1704, 219);
+            ClientSize = new Size(1075, 211);
             Controls.Add(flowLayoutPanel1);
             Controls.Add(flowLayoutPanel3);
             Controls.Add(flowLayoutPanel2);
@@ -297,8 +249,8 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(5);
             MaximumSize = new Size(1920, 1080);
-            MinimumSize = new Size(1720, 250);
-            Name = "pr8_4";
+            MinimumSize = new Size(1091, 250);
+            Name = "pr8_5";
             Padding = new Padding(10);
             StartPosition = FormStartPosition.CenterScreen;
             flowLayoutPanel2.ResumeLayout(false);
@@ -330,10 +282,6 @@
         private Label label2;
         private TextBox textBox2;
         private FlowLayoutPanel flowLayoutPanel1;
-        private Label label3;
-        private TextBox textBox3;
-        private Label label4;
-        private TextBox textBox4;
         private Label labelResult2;
         private Label labelResult3;
         private Label labelResult4;

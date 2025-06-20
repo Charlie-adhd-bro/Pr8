@@ -43,7 +43,8 @@
 
         public override string ToString()
         {
-            return Symbol.ToString();
+            return $"cимвол \n{Symbol} \n";
+               // Symbol.ToString();
         }
     }
 }
